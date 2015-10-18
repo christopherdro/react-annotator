@@ -9,6 +9,9 @@
   },
   "private": false,
   "license": "MIT",
+  "files": [
+    "lib/"
+  ],
   "keywords": [
     "ReactJS",
     "react",
