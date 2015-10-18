@@ -1,17 +1,17 @@
 {
   "name": "react-annotator",
   "version": "0.0.1",
-  "author": "Jake Marsh <jakemmarsh@gmail.com>",
+  "author": {
+    "name": "Jake Marsh",
+    "email": "jakemmarsh@gmail.com"
+  },
   "description": "A React mixin to allow for user annotations directly on images.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakemmarsh/react-annotator.git"
+    "url": "git+https://github.com/jakemmarsh/react-annotator.git"
   },
   "private": false,
   "license": "MIT",
-  "files": [
-    "lib/"
-  ],
   "keywords": [
     "ReactJS",
     "react",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "lodash": "^3.5.x",
-    "react": "^0.14.0"
+    "react": "^0.12.x"
   },
   "devDependencies": {
     "del": "^1.1.1",
@@ -48,5 +48,32 @@
   "scripts": {
     "test": "jest",
     "prepublish": "gulp prod"
-  }
+  },
+  "gitHead": "4f4d15f74f7260fc3f4ceb578b13c0b6b2623b0f",
+  "bugs": {
+    "url": "https://github.com/jakemmarsh/react-annotator/issues"
+  },
+  "homepage": "https://github.com/jakemmarsh/react-annotator",
+  "_id": "react-annotator@0.0.1",
+  "_shasum": "f848f45371c7f767a0dab91cf580570ec0c76421",
+  "_from": "react-annotator@0.0.1",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "jakemmarsh",
+    "email": "jakemmarsh@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "jakemmarsh",
+      "email": "jakemmarsh@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "f848f45371c7f767a0dab91cf580570ec0c76421",
+    "tarball": "http://registry.npmjs.org/react-annotator/-/react-annotator-0.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/react-annotator/-/react-annotator-0.0.1.tgz",
+  "readme": "ERROR: No README data found!"
 }
